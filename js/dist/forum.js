@@ -1728,7 +1728,7 @@ flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('widayn
     items.replace('upload', m((flarum_common_components_Button__WEBPACK_IMPORTED_MODULE_3___default()), {
       icon: "fas fa-upload",
       onclick: openUpload.bind(this)
-    }, "upload"));
+    }, flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('core.forum.user.avatar_upload_button')));
   });
 });
 

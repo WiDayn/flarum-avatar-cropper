@@ -23,7 +23,7 @@ app.initializers.add('widayn/flarum-avatar-cropper', () => {
     items.replace(
       'upload',
       <Button icon="fas fa-upload" onclick={openUpload.bind(this)}>
-        upload
+        {app.translator.trans('core.forum.user.avatar_upload_button')}
       </Button>
     );
   })
